@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.foundit"
+    namespace = "com.example.kotlinmigration"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.foundit"
+        applicationId = "com.example.kotlinmigration"
         minSdk = 29
         targetSdk = 34
         versionCode = 1
