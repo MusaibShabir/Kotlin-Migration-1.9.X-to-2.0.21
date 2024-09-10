@@ -1,8 +1,8 @@
 [versions]
-kotlin = "2.0.10"
+kotlin = "2.0.20"
 agp = "8.6.0"
 featureDelivery = "2.1.0"
-ksp = "2.0.0-1.0.24"
+ksp = "2.0.20-1.0.25"
 
 #Room
 roomRuntime = "2.6.1"
