@@ -4,6 +4,10 @@ agp = "8.6.0"
 featureDelivery = "2.1.0"
 ksp = "2.0.20-1.0.25"
 
+#Gemini
+generativeai = "0.9.0"
+
+
 #Room
 roomRuntime = "2.6.1"
 
@@ -41,8 +45,11 @@ navigationFragment = "2.8.0"
 firebaseAuthKtx = "23.0.0"
 firebaseConfigKtx = "22.0.0"
 firebaseFirestoreKtx = "25.1.0"
-firebaseBom = "33.2.0"
+firebaseBom = "33.3.0"
 firebaseAuth = "23.0.0"
+
+#Secrets Gradle
+secretsGradlePlugin = "2.0.1"
 
 
 
@@ -56,6 +63,10 @@ firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "fir
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
 googleid = { module = "com.google.android.libraries.identity.googleid:googleid", version.ref = "googleid" }
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+
+#Gemini
+generativeai = { module = "com.google.ai.client.generativeai:generativeai", version.ref = "generativeai" }
+
 
 
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
@@ -99,6 +110,9 @@ firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx",
 firebase-config-ktx = { group = "com.google.firebase", name = "firebase-config-ktx", version.ref = "firebaseConfigKtx" }
 androidx-foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundationLayoutAndroid" }
 firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
+
+#Secrets Gradle
+secrets-gradle-plugin = { module = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin", version.ref = "secretsGradlePlugin" }
 
 
 [plugins]

@@ -34,11 +34,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "11"
     }
 
     buildFeatures {
@@ -72,10 +72,8 @@ dependencies {
     //Room
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
-    implementation(libs.firebase.auth.ktx)
-    implementation(libs.firebase.config.ktx)
+
     implementation(libs.androidx.foundation.layout.android)
-    implementation(libs.firebase.firestore.ktx)
     annotationProcessor(libs.androidx.room.compiler)
     ksp(libs.androidx.room.compiler)
 
@@ -102,9 +100,17 @@ dependencies {
     //Coroutines
     implementation(libs.kotlinx.coroutines.android)
 
-    // firebase
+    // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)
+    implementation(libs.firebase.auth.ktx)
+    implementation(libs.firebase.config.ktx)
+    implementation(libs.firebase.firestore.ktx)
+
+    // Gemini
+    implementation(libs.generativeai)
+
+
 
     //Authentication with Credential Manager
     implementation(libs.androidx.credentials.play.services.auth)
