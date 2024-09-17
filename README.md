@@ -36,3 +36,4 @@
 * **AndroidX navigation testing**
 * **AndroidX UI tooling**
 * **AndroidX UI test manifest**
+* **Gemini API**
