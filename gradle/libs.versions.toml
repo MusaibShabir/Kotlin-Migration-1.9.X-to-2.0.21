@@ -41,7 +41,7 @@ navigationFragment = "2.8.2"
 firebaseAuthKtx = "23.0.0"
 firebaseConfigKtx = "22.0.0"
 firebaseFirestoreKtx = "25.1.0"
-firebaseBom = "33.3.0"
+firebaseBom = "33.4.0"
 firebaseAuth = "23.0.0"
 
 #Gemini
